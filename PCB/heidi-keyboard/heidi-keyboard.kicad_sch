@@ -62,7 +62,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "dcba4fa7-9cd7-40f3-b132-b3014bde9adf")
+		(uuid "628a92d3-230d-478d-a978-991e0f2f82a1")
 		(property "Sheetname" "right"
 			(at 76.2 11.9884 0)
 			(effects
@@ -72,7 +72,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "side.kicad_sch"
+		(property "Sheetfile" "not_side.kicad_sch"
 			(at 76.2 64.0846 0)
 			(effects
 				(font
@@ -84,7 +84,7 @@
 		(instances
 			(project "heidi-keyboard"
 				(path "/fac4024f-04d0-49da-b501-a68e9856b84b"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
