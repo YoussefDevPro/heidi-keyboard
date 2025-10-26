@@ -386,313 +386,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:RotaryEncoder"
 			(pin_names
 				(offset 0.254)
@@ -2401,12 +2094,6 @@
 		(uuid "4d17bc37-e581-4a9f-b1fc-d93b3d728efa")
 	)
 	(junction
-		(at 135.89 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f43cd33-cd81-4861-8270-37b2bbe13f1e")
-	)
-	(junction
 		(at 171.45 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2465,12 +2152,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93dfc5ed-db59-45bd-bc56-1530406c2198")
-	)
-	(junction
-		(at 146.05 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a578ba1-359c-4999-9fa8-a6ff3a4eb5a3")
 	)
 	(junction
 		(at 161.29 62.23)
@@ -2876,16 +2557,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 113.03) (xy 135.89 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "879424b0-60f1-4c26-9223-89cf1f00047c")
-	)
-	(wire
-		(pts
 			(xy 222.25 95.25) (xy 247.65 95.25)
 		)
 		(stroke
@@ -3016,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 146.05) (xy 146.05 146.05)
+			(xy 121.92 146.05) (xy 171.45 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3194,16 +2865,6 @@
 		)
 		(uuid "f804d2e2-dfd4-4f02-825d-1bccc2568136")
 	)
-	(wire
-		(pts
-			(xy 146.05 146.05) (xy 171.45 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faea260f-36e4-406c-8f14-e12c2dd324c1")
-	)
 	(global_label "COL_2"
 		(shape input)
 		(at 31.75 64.77 180)
@@ -3358,28 +3019,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 43.18 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "18ce697a-e482-4263-ba9a-2c60701c771d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.3243 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL_3"
 		(shape input)
 		(at 212.09 24.13 90)
@@ -3415,28 +3054,6 @@
 		(uuid "27a27c01-f575-40ad-8c98-c7fcbe1209d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.69 17.6372 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 58.42 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37f42510-0497-4c0b-92bd-1e5007e7facf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.9128 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,74 +4052,6 @@
 			(project "heidi-keyboard"
 				(path "/fac4024f-04d0-49da-b501-a68e9856b84b/628a92d3-230d-478d-a978-991e0f2f82a1"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19f1fde9-c418-43a3-a35c-584f04018d8e")
-		(property "Reference" "R4"
-			(at 54.61 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 54.61 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4d3703b5-b893-42f2-a246-993b7d42422a")
-		)
-		(pin "1"
-			(uuid "5b542a51-c274-4e8f-b8ce-3e7eba46d19a")
-		)
-		(instances
-			(project "heidi-keyboard"
-				(path "/fac4024f-04d0-49da-b501-a68e9856b84b/628a92d3-230d-478d-a978-991e0f2f82a1"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5777,94 +5326,6 @@
 			(project "heidi-keyboard"
 				(path "/fac4024f-04d0-49da-b501-a68e9856b84b/628a92d3-230d-478d-a978-991e0f2f82a1"
 					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 146.05 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "421b9005-3fb0-435c-94bf-789d0c0584aa")
-		(property "Reference" "D10"
-			(at 148.59 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 148.59 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 146.05 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 146.05 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a06eb9c7-58cd-492c-a8e4-371137bccd8f")
-		)
-		(pin "2"
-			(uuid "9e0f3a6b-faa7-4c0a-8db9-163b10441296")
-		)
-		(instances
-			(project "heidi-keyboard"
-				(path "/fac4024f-04d0-49da-b501-a68e9856b84b/628a92d3-230d-478d-a978-991e0f2f82a1"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7499,83 +6960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 46.99 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91366c14-eb35-4be3-9a24-056efd811591")
-		(property "Reference" "D62"
-			(at 45.4025 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 45.4025 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29b5f956-c411-49de-866a-eb90325c2045")
-		)
-		(pin "2"
-			(uuid "701dd407-ee7c-4700-81a3-01716d545595")
-		)
-		(instances
-			(project "heidi-keyboard"
-				(path "/fac4024f-04d0-49da-b501-a68e9856b84b/628a92d3-230d-478d-a978-991e0f2f82a1"
-					(reference "D62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 222.25 142.24 90)
 		(unit 1)
@@ -8390,74 +7774,6 @@
 			(project "heidi-keyboard"
 				(path "/fac4024f-04d0-49da-b501-a68e9856b84b/628a92d3-230d-478d-a978-991e0f2f82a1"
 					(reference "SW44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 140.97 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3145093-5132-4fc1-aae5-876798043526")
-		(property "Reference" "SW10"
-			(at 140.97 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 140.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 140.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "218c9328-20d2-461c-b6a3-6ea52e83aef9")
-		)
-		(pin "2"
-			(uuid "9f17d0cb-bb33-463e-9c94-cf68a12fd45c")
-		)
-		(instances
-			(project "heidi-keyboard"
-				(path "/fac4024f-04d0-49da-b501-a68e9856b84b/628a92d3-230d-478d-a978-991e0f2f82a1"
-					(reference "SW10")
 					(unit 1)
 				)
 			)
